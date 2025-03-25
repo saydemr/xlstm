@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xlstm"
-version = "2.0.2"
+version = "2.0.3"
 authors = [
   { name="Maximilian Beck", email="beck@ml.jku.at" },
   { name="Korbinian Poeppel", email="poeppel@ml.jku.at" },
@@ -23,9 +23,8 @@ dependencies = [
     "torch",
     "einops",
     "numpy",
-    "omegaconf",
-    "einops",
     "opt_einsum", 
+    "omegaconf",
     "transformers",
     "reportlab",
     "joypy",
@@ -35,7 +34,6 @@ dependencies = [
     "ninja",
     "huggingface-hub",
     "rich",
-    "omegaconf",
     "tokenizers",
     "tqdm",
     "seaborn",
